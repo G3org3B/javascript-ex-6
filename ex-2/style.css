@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #434445;
+
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.jumbo {
+width: 600px;
+height: 300px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid 15px #8AFF87;
+border-radius: 10px;
+}
