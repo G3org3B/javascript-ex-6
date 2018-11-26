@@ -16,7 +16,7 @@ var numeriCasuali = [];
 
 for (var i = 0; i < 5; i++) {
 
-  var numeri = numberRandom(1, 10);
+  var numeri = numberRandom(1, 30);
   console.log('numero casuale alert ' + numeriCasuali);
 
   numeriCasuali.push(numeri);
@@ -33,7 +33,7 @@ var dbnumeriUtente = [];
 
 //----------- creo la funzione che dopo 30 secondi fà inserire al giocatore i numeri memorizzati in precedenza   ---------
 
-setTimeout(richiestaNumeri, 3000);
+setTimeout(richiestaNumeri, 30000);
 function richiestaNumeri() {
 
   for (var i = 0; i < 5; i++) {
